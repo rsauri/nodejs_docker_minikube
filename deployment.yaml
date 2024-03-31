@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: web-app
-  replicas: 1 #Changed the replicas from 1 to 2
+  replicas: 2 #Changed the replicas from 1 to 2
   template:
     metadata:
       labels:
